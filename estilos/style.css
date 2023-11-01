@@ -1,1 +1,10 @@
 @charset "UTF-8";
+
+/*
+cor1: #FF5959
+cor2: #F9DBBD
+*/
+
+html {
+    background-color: #F9DBBD;
+}
