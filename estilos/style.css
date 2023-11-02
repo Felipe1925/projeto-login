@@ -5,6 +5,56 @@ cor1: #FF5959
 cor2: #F9DBBD
 */
 
+* {
+    
+}
+
 html {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #F9DBBD;
+}
+
+main {
+    position: relative;
+    height: 96vh;
+}
+
+section {
+    display: block;
+    background-color: white;
+    width: 427px;
+    margin: auto;
+    border-radius: 20px;
+    position: absolute;
+    border: 1px solid rgb(36, 36, 36);
+    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+div#imagem {
+    background-image: url(../imagens/pexels-david-underland-3523621.jpg);
+    height: 400px;
+    background-size: 100% 100%;
+    background-position: center center;
+    border-radius: 20px 20px 0px 0px;
+}
+
+div#form {
+    height: 251px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    padding: 10px;
+}
+
+input#login {
+    border: 1px solid red;
 }
