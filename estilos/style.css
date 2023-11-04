@@ -1,60 +1,53 @@
-@charset "UTF-8";
+@charset "UTF-8";   
 
 /*
-cor1: #FF5959
-cor2: #F9DBBD
+cor1: #fa5c5c
+cor2: #ffc183
 */
 
-* {
-    
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
-html {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #F9DBBD;
+body, html {
+    height: 100vh;
+    width: 100vw;
+    background-color: #fa5c5c;
 }
 
 main {
     position: relative;
-    height: 96vh;
+    height: 100vh;
+    width: 100vw;
 }
 
-section {
-    display: block;
-    background-color: white;
-    width: 427px;
-    margin: auto;
-    border-radius: 20px;
+section#login {
     position: absolute;
-    border: 1px solid rgb(36, 36, 36);
-    
-    left: 50%;
     top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
-
+    
+    background-color: white;
+    height: 500px;
+    width: 260px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.575);
+    overflow: hidden;
 }
 
-div#imagem {
-    background-image: url(../imagens/predio.jpg);
-    height: 400px;
-    background-size: 100% 100%;
-    background-position: center center;
-    border-radius: 20px 20px 0px 0px;
+section#login > div#imagem {
+    display: block;
+    background-color: #fa5c5c;
+    background: url(../imagens/predio.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 230px;
 }
 
-div#form {
-    height: 251px;
-}
-
-h1 {
-    text-align: center;
-    font-weight: bold;
-}
-
-p {
+section#login > div#formulario {
+    display: block;
     padding: 10px;
-}
-
-input#login {
-    border: 1px solid red;
 }
