@@ -1,8 +1,8 @@
 @charset "UTF-8";   
 
 /*
-cor1: #fa5c5c
-cor2: #ffc183
+cor1: #733250
+cor2: #310e17
 */
 
 *{
@@ -15,7 +15,7 @@ cor2: #ffc183
 body, html {
     height: 100vh;
     width: 100vw;
-    background-color: #fa5c5c;
+    background-color: #733250;
 }
 
 main {
@@ -40,8 +40,8 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background-color: #fa5c5c;
-    background: url(../imagens/predio.jpg) no-repeat;
+    background-color: #733250;
+    background: url(../imagens/pexels-misael-garcia-1707823.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     height: 230px;
