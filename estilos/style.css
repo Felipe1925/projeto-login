@@ -36,6 +36,7 @@ section#login {
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.575);
     overflow: hidden;
+    min-height: 520px;
 }
 
 section#login > div#imagem {
